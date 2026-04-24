@@ -1,0 +1,58 @@
+{
+  "observatorio_electrico": {
+    "metadata_mantenimientos": {
+      "fuente": "Plan de Operación CENACE 2026-2027",
+      "fecha_emision": "Marzo 2026",
+      "_comentario": "Datos basados en la programación estratégica para evitar el déficit energético"
+    },
+    "programacion_centrales_criticas": [
+      {
+        "central": "Coca Codo Sinclair (1500 MW)",
+        "id_activo": "central_coca_codo_sinclair",
+        "tipo_trabajo": "Control de sedimentos en captación",
+        "estado_actual": "Reprogramado / Postergado",
+        "fecha_original": "Febrero 2026 (Carnaval)",
+        "nueva_fecha_estimada": "Junio 2026",
+        "motivo_reprogramacion": "Riesgo de desabastecimiento en demanda máxima por parada de Marcel Laniado y estiaje",
+        "impacto_sistemico": "Alta prioridad para reducir salidas forzadas por calidad de agua"
+      },
+      {
+        "central": "Sopladora (Unidad 2 - 162.3 MW)",
+        "id_activo": "central_sopladora",
+        "tipo_trabajo": "Mantenimiento programado",
+        "estado_actual": "En ejecución",
+        "inicio": "Noviembre 2025",
+        "impacto_mw_indisponible": 162.3,
+        "nota_operativa": "Su indisponibilidad limitó las reservas a inicios de 2026"
+      },
+      {
+        "central": "Marcel Laniado (213 MW)",
+        "id_activo": "central_marcel_laniado",
+        "tipo_trabajo": "Parada emergente",
+        "estado_actual": "Finalizado / Recuperado",
+        "fecha_reintegro": "Finales de Febrero 2026",
+        "impacto_mw_recuperado": 213.0,
+        "_comentario": "Su salida obligó a reajustar todo el cronograma nacional de mantenimientos"
+      }
+    ],
+    "restricciones_y_politica_de_mantenimiento": {
+      "modalidad": "Ejecución limitada y sucesiva (en cascada)",
+      "regla_de_oro": "La finalización de un mantenimiento habilita el inicio del siguiente",
+      "factores_condicionantes": [
+        "Niveles de reserva en embalses de Mazar y Pisayambo",
+        "Ingreso efectivo de nueva generación térmica (250 MW previstos en 2026)",
+        "Disponibilidad de importaciones desde Colombia (actualmente suspendidas)"
+      ],
+      "alerta_de_planificacion": "La postergación de obras de expansión obliga a reprogramaciones continuas que comprometen la salud de los activos"
+    },
+    "gestion_de_activos_transmision": {
+      "requerimiento_especial": "Plan de mantenimiento obligatorio para transformadores >= 225 MVA",
+      "condicion_vincular": "No deben indisponer la demanda servida durante su intervención"
+    },
+    "responsabilidades": {
+      "ejecucion_y_contratacion": "Empresas Generadoras (CELEC EP y Privadas)",
+      "financiamiento": "Recursos propios de las generadoras",
+      "supervision_y_aprobacion": "CENACE (Planeamiento Operativo)"
+    }
+  }
+}

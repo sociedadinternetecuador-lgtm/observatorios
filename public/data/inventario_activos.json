@@ -1,0 +1,217 @@
+{
+  "observatorio_electrico": {
+    "capa_estatica": {
+      "fecha_corte": "Diciembre 2025",
+      "sistema": "Sistema Nacional Interconectado (S.N.I.)",
+      "inventario_centrales": {
+        "hidroelectricas": {
+          "prioritarias_individuales": [
+            {
+              "nombre": "Coca Codo Sinclair",
+              "potencia_nominal_mw": 1500.0,
+              "potencia_efectiva_mw": 1476.0
+            },
+            {
+              "nombre": "Molino (Paute)",
+              "potencia_nominal_mw": 1075.0,
+              "potencia_efectiva_mw": 1100.0
+            },
+            {
+              "nombre": "Sopladora",
+              "potencia_nominal_mw": 487.0,
+              "potencia_efectiva_mw": 486.9
+            },
+            {
+              "nombre": "Minas San Francisco",
+              "potencia_nominal_mw": 270.0,
+              "potencia_efectiva_mw": 270.0
+            },
+            {
+              "nombre": "San Francisco",
+              "potencia_nominal_mw": 230.0,
+              "potencia_efectiva_mw": 212.0
+            },
+            {
+              "nombre": "Delsitanisagua",
+              "potencia_nominal_mw": 180.0,
+              "potencia_efectiva_mw": 180.0
+            },
+            {
+              "nombre": "Mazar",
+              "potencia_nominal_mw": 170.0,
+              "potencia_efectiva_mw": 170.0
+            },
+            {
+              "nombre": "Agoyán",
+              "potencia_nominal_mw": 160.0,
+              "potencia_efectiva_mw": 154.0
+            }
+          ],
+          "otras_centrales_hidricas_sni": {
+            "descripcion": "Resumen de unidades menores y nuevas incorporaciones (incluye Marcel Laniado, Alluriquín, Pucará, entre otras)",
+            "potencia_nominal_mw": 1313.56,
+            "potencia_efectiva_mw": 1338.52
+          }
+        },
+        "termoelectricas": {
+          "mayores_individuales": [
+            {
+              "nombre": "Gonzalo Zevallos",
+              "grupo": "Base Vapor/Gas",
+              "potencia_nominal_mw": 146.0,
+              "potencia_efectiva_mw": 140.0
+            },
+            {
+              "nombre": "Trinitaria",
+              "grupo": "Base Vapor/Gas",
+              "potencia_nominal_mw": 133.0,
+              "potencia_efectiva_mw": 133.0
+            },
+            {
+              "nombre": "Termogas Machala I",
+              "grupo": "Base Vapor/Gas",
+              "potencia_nominal_mw": 138.56,
+              "potencia_efectiva_mw": 130.6
+            },
+            {
+              "nombre": "Esmeraldas I",
+              "grupo": "Base Vapor/Gas",
+              "potencia_nominal_mw": 132.5,
+              "potencia_efectiva_mw": 125.0
+            },
+            {
+              "nombre": "Termogas Machala II",
+              "grupo": "Base Vapor/Gas",
+              "potencia_nominal_mw": 136.8,
+              "potencia_efectiva_mw": 119.0
+            },
+            {
+              "nombre": "Victoria II",
+              "grupo": "Base Vapor/Gas",
+              "potencia_nominal_mw": 102.0,
+              "potencia_efectiva_mw": 102.0
+            },
+            {
+              "nombre": "Anibal Santos",
+              "grupo": "Base Vapor/Gas",
+              "potencia_nominal_mw": 97.0,
+              "potencia_efectiva_mw": 97.0
+            },
+            {
+              "nombre": "Enrique Garcia",
+              "grupo": "Base Vapor/Gas",
+              "potencia_nominal_mw": 96.0,
+              "potencia_efectiva_mw": 96.0
+            },
+            {
+              "nombre": "Jaramijo",
+              "grupo": "MCI y Emergencia",
+              "potencia_nominal_mw": 149.22,
+              "potencia_efectiva_mw": 128.88
+            },
+            {
+              "nombre": "Esmeraldas II",
+              "grupo": "MCI y Emergencia",
+              "potencia_nominal_mw": 84.0,
+              "potencia_efectiva_mw": 84.0
+            },
+            {
+              "nombre": "Santa Elena II",
+              "grupo": "MCI y Emergencia",
+              "potencia_nominal_mw": 65.03,
+              "potencia_efectiva_mw": 65.03
+            },
+            {
+              "nombre": "Alvaro Tinajero",
+              "grupo": "MCI y Emergencia",
+              "potencia_nominal_mw": 64.0,
+              "potencia_efectiva_mw": 64.0
+            },
+            {
+              "nombre": "Santa Rosa",
+              "grupo": "MCI y Emergencia",
+              "potencia_nominal_mw": 51.0,
+              "potencia_efectiva_mw": 51.0
+            },
+            {
+              "nombre": "Guangopolo 2",
+              "grupo": "MCI y Emergencia",
+              "potencia_nominal_mw": 48.0,
+              "potencia_efectiva_mw": 48.0
+            },
+            {
+              "nombre": "Quevedo II",
+              "grupo": "MCI y Emergencia",
+              "potencia_nominal_mw": 40.5,
+              "potencia_efectiva_mw": 40.5
+            },
+            {
+              "nombre": "Santa Elena III",
+              "grupo": "MCI y Emergencia",
+              "potencia_nominal_mw": 40.0,
+              "potencia_efectiva_mw": 40.0
+            },
+            {
+              "nombre": "Miraflores",
+              "grupo": "MCI y Emergencia",
+              "potencia_nominal_mw": 39.4,
+              "potencia_efectiva_mw": 39.4
+            },
+            {
+              "nombre": "G. Hernandez",
+              "grupo": "MCI y Emergencia",
+              "potencia_nominal_mw": 31.2,
+              "potencia_efectiva_mw": 31.2
+            },
+            {
+              "nombre": "Manta II",
+              "grupo": "MCI y Emergencia",
+              "potencia_nominal_mw": 17.34,
+              "potencia_efectiva_mw": 17.34
+            },
+            {
+              "nombre": "Barcazas Murat Bey I, II, III",
+              "grupo": "Nuevas Incorporaciones Operativas",
+              "potencia_nominal_mw": 295.0,
+              "potencia_efectiva_mw": 295.0,
+              "nota": "Bloque operativo 2025"
+            },
+            {
+              "nombre": "El Descanso",
+              "grupo": "Nuevas Incorporaciones Operativas",
+              "potencia_nominal_mw": 20.0,
+              "potencia_efectiva_mw": 20.0
+            },
+            {
+              "nombre": "Gasvesubio",
+              "grupo": "Nuevas Incorporaciones Operativas",
+              "potencia_nominal_mw": 13.5,
+              "potencia_efectiva_mw": 13.5
+            },
+            {
+              "nombre": "Respaldo termico menor y movil restante",
+              "grupo": "Resto tecnico desglosado",
+              "potencia_nominal_mw": 264.55,
+              "potencia_efectiva_mw": 264.55,
+              "nota": "Cierre para total de 2145 MW efectivos"
+            }
+          ],
+          "otras_centrales_termicas_sni": {
+            "descripcion": "Inventario termico completamente desglosado; no existe bloque agregado bajo Otros.",
+            "potencia_nominal_mw": 0,
+            "potencia_efectiva_mw": 0
+          }
+        },
+        "resumen_sni_total": {
+          "potencia_nominal_total_mw": 8029.75,
+          "potencia_efectiva_total_mw": 7788.99
+        },
+        "capacidad_autogeneracion": {
+          "total_nominal_mw": 1826.72,
+          "total_efectiva_mw": 1490.67,
+          "nota": "Datos correspondientes principalmente a sectores industriales y petroleros"
+        }
+      }
+    }
+  }
+}

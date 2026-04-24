@@ -1,0 +1,51 @@
+{
+  "observatorio_electrico": {
+    "capa_vulnerabilidad": {
+      "horizonte_planificacion": "Enero 2026 - Diciembre 2027",
+      "balance_oferta_demanda_riesgo": {
+        "deficit_generacion_identificado_mw": 893.7,
+        "probabilidad_deficit_energia": {
+          "inicio_2026": "7%",
+          "octubre_2026_marzo_2027": "18%",
+          "vulnerabilidad_estructural_global": "25%"
+        },
+        "costo_energia_no_suministrada_cens_usd_cent_kwh": 153.3
+      },
+      "alertas_infraestructura_critica": {
+        "central_coca__codo_sinclair": {
+          "capacidad": 1500,
+          "riesgos_operativos": "33 salidas en 2025 por mala calidad de agua",
+          "mantenimiento_sedimentos_reprogramado": "Junio 2026",
+          "restriccion_voltaje": "Mínimo 4 unidades en baja demanda para evitar sobrevoltajes"
+        },
+        "interconexion_colombia": {
+          "capacidad_maxima_mw": 450,
+          "estado_actual": "Exportaciones suspendidas desde el 22 de enero de 2026",
+          "importacion_emergencia_dic25_ene26_gwh": 295.73
+        },
+        "subestaciones_con_sobrecarga_critica": [
+          { "nombre": "Nueva Babahoyo", "cargabilidad_actual_porcentaje": 104.76 },
+          { "nombre": "Pascuales (ATQ)", "cargabilidad_actual_porcentaje": 100.69 },
+          { "nombre": "Santa Elena (ATR)", "cargabilidad_actual_porcentaje": 102.14 },
+          { "notas": "Manta, Quevedo, Chone y Posorja operan cercanas al 100%" }
+        ]
+      },
+      "impacto_economico_escenarios_sequia_usd_millones": {
+        "escenario_esperado": 41.31,
+        "escenario_extremo_percentil_98": 823.69
+      },
+      "obras_prioritarias_urgentes_tabla_37": [
+        "S/E Orquídeas 230/69 kV",
+        "S/E Nueva Salitral 230/69 kV",
+        "S/E Esclusas 230/69 kV",
+        "L/T Shushufindi - Seccionamiento Loreto - Orellana 138 kV",
+        "Compensación capacitiva en zona suroccidental"
+      ],
+      "directrices_operativas_criticas": [
+        "Sustitución obligatoria de generación arrendada por propia antes de su retiro",
+        "Coordinación con Petroecuador para asegurar suministro de fuel oil y diésel",
+        "Implementación urgente de planes de ahorro y eficiencia energética con la ciudadanía"
+      ]
+    }
+  }
+}

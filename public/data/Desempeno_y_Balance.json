@@ -1,0 +1,65 @@
+{
+  "observatorio_electrico": {
+    "capa_dinamica": {
+      "periodo_analisis": "Año 2025 (Cierre estadístico)",
+      "balance_nacional_energia": {
+        "generacion_bruta_total_gwh": 38212.31,
+        "importaciones_totales_gwh": 624.35,
+        "exportaciones_totales_gwh": 194.92,
+        "energia_bruta_total_sistema_gwh": 38836.66,
+        "matriz_por_fuente": {
+          "renovable": {
+            "total_gwh": 28767.75,
+            "porcentaje_participacion": 74.07,
+            "detalle": {
+              "hidraulica_gwh": 28124.02,
+              "biomasa_gwh": 370.72,
+              "eolica_gwh": 185.82,
+              "biogas_gwh": 42.94,
+              "fotovoltaica_gwh": 31.65
+            }
+          },
+          "no_renovable_termica": {
+            "total_gwh": 10068.91,
+            "detalle_tecnologia": {
+              "motores_combustion_interna_mci_gwh": 6398.31,
+              "turbovapor_gwh": 1749.44,
+              "turbogas_gwh": 1296.81
+            }
+          }
+        }
+      },
+      "eficiencia_y_perdidas": {
+        "transmision_snt": {
+          "perdidas_gwh": 1594.05,
+          "porcentaje_perdidas": 4.64
+        },
+        "distribucion": {
+          "perdidas_totales_gwh": 5166.40,
+          "porcentaje_total": 15.86,
+          "desglose_perdidas": {
+            "tecnicas_gwh": 1921.41,
+            "no_tecnicas_fraude_gestion_gwh": 3245.00
+          }
+        }
+      },
+      "autogeneracion": {
+        "potencia_efectiva_total_mw": 1490.67,
+        "produccion_bruta_anual_gwh": 6778.69,
+        "participacion_termica_porcentaje": 63.45
+      },
+      "comercializacion_y_mercado": {
+        "numero_consumidores_total": 5814177,
+        "cobertura_servicio_nacional_porcentaje": 97.81,
+        "precios_medios_usd_cent_kwh": {
+          "compra_distribuidoras": 4.85,
+          "facturado_consumidor_regulado": 9.99,
+          "residencial": 10.28,
+          "industrial": 10.16,
+          "comercial": 10.94
+        },
+        "recaudacion_total_usd_millones": 2159.57
+      }
+    }
+  }
+}

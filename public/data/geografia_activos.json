@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "nombre": "Geografia de activos del Observatorio Electrico",
+    "version": "1.0",
+    "fecha_corte": "2026-04-22",
+    "nota": "Capa geografica auxiliar para visualizacion web. Basada en Provincias del Anexo 1 PME."
+  },
+  "centrales": [
+    {
+      "nombre": "Coca Codo Sinclair",
+      "tipo": "Hidroelectrica",
+      "subtipo": "Hidraulica de Pasada",
+      "sistema": "S.N.I.",
+      "provincia": "Napo",
+      "canton": "El Chaco",
+      "lat": -0.1345,
+      "lng": -77.4589,
+      "id_activo": "central_coca_codo_sinclair",
+      "fuente_geografica": "PME Anexo 1"
+    },
+    {
+      "nombre": "Molino (Paute)",
+      "tipo": "Hidroelectrica",
+      "subtipo": "Embalse",
+      "sistema": "S.N.I.",
+      "provincia": "Azuay",
+      "canton": "Paute",
+      "lat": -2.5714,
+      "lng": -78.5611,
+      "id_activo": "central_molino_paute",
+      "fuente_geografica": "PME Anexo 1"
+    },
+    {
+      "nombre": "Sopladora",
+      "tipo": "Hidroelectrica",
+      "subtipo": "Hidraulica de Pasada",
+      "sistema": "S.N.I.",
+      "provincia": "Azuay",
+      "canton": "Sevilla de Oro",
+      "lat": -2.5186,
+      "lng": -78.4872,
+      "id_activo": "central_sopladora",
+      "fuente_geografica": "PME Anexo 1"
+    },
+    {
+      "nombre": "Mazar",
+      "tipo": "Hidroelectrica",
+      "subtipo": "Embalse",
+      "sistema": "S.N.I.",
+      "provincia": "Azuay",
+      "canton": "Paute",
+      "lat": -2.5414,
+      "lng": -78.6019,
+      "id_activo": "central_mazar",
+      "fuente_geografica": "PME Anexo 1"
+    },
+    {
+      "nombre": "Agoyán",
+      "tipo": "Hidroelectrica",
+      "subtipo": "Hidraulica de Pasada",
+      "sistema": "S.N.I.",
+      "provincia": "Tungurahua",
+      "canton": "Baños",
+      "lat": -1.3975,
+      "lng": -78.2981,
+      "id_activo": "central_agoyan",
+      "fuente_geografica": "PME Anexo 1"
+    },
+    {
+      "nombre": "Delsitanisagua",
+      "tipo": "Hidroelectrica",
+      "subtipo": "Hidraulica de Pasada",
+      "sistema": "S.N.I.",
+      "provincia": "Zamora Chinchipe",
+      "canton": "Zamora",
+      "lat": -3.9847,
+      "lng": -79.0344,
+      "id_activo": "central_delsitanisagua",
+      "fuente_geografica": "PME Anexo 1"
+    },
+    {
+      "nombre": "San Francisco",
+      "tipo": "Hidroelectrica",
+      "subtipo": "Hidraulica de Pasada",
+      "sistema": "S.N.I.",
+      "provincia": "Tungurahua",
+      "canton": "Baños",
+      "lat": -1.4056,
+      "lng": -78.2742,
+      "id_activo": "central_san_francisco",
+      "fuente_geografica": "PME Anexo 1"
+    },
+    {
+      "nombre": "Minas San Francisco",
+      "tipo": "Hidroelectrica",
+      "subtipo": "Hidraulica de Pasada",
+      "sistema": "S.N.I.",
+      "provincia": "Azuay",
+      "canton": "Pucará",
+      "lat": -3.3325,
+      "lng": -79.3514,
+      "id_activo": "central_minas_san_francisco",
+      "fuente_geografica": "PME Anexo 1"
+    },
+    {
+      "nombre": "Termogas Machala I",
+      "tipo": "Termoelectrica",
+      "subtipo": "Turbogás",
+      "sistema": "S.N.I.",
+      "provincia": "El Oro",
+      "canton": "Machala",
+      "lat": -3.2389,
+      "lng": -79.9125,
+      "id_activo": "central_termogas_machala_1",
+      "fuente_geografica": "PME Anexo 1"
+    },
+    {
+      "nombre": "Jaramijó",
+      "tipo": "Termoelectrica",
+      "subtipo": "MCI",
+      "sistema": "S.N.I.",
+      "provincia": "Manabí",
+      "canton": "Jaramijó",
+      "lat": -0.9653,
+      "lng": -80.6278,
+      "id_activo": "central_jaramijo",
+      "fuente_geografica": "PME Anexo 1"
+    }
+  ],
+  "subestaciones": [
+    {
+      "nombre": "Nueva Babahoyo",
+      "tipo": "Subestacion",
+      "nivel_kv": "230/138/69",
+      "provincia": "Los Rios",
+      "canton": "Babahoyo",
+      "lat": -1.8021,
+      "lng": -79.5342,
+      "id_activo": "se_nueva_babahoyo",
+      "fuente_geografica": "CENACE Circular 2026"
+    },
+    {
+      "nombre": "Pascuales (ATQ)",
+      "tipo": "Subestacion",
+      "nivel_kv": "230/138/69",
+      "provincia": "Guayas",
+      "canton": "Guayaquil",
+      "lat": -2.0834,
+      "lng": -79.9167,
+      "id_activo": "se_pascuales_atq",
+      "fuente_geografica": "CENACE Circular 2026"
+    },
+    {
+      "nombre": "Santa Elena (ATR)",
+      "tipo": "Subestacion",
+      "nivel_kv": "138/69",
+      "provincia": "Santa Elena",
+      "canton": "Santa Elena",
+      "lat": -2.2267,
+      "lng": -80.8583,
+      "id_activo": "se_santa_elena_atr",
+      "fuente_geografica": "CENACE Circular 2026"
+    },
+    {
+      "nombre": "Posorja",
+      "tipo": "Subestacion",
+      "nivel_kv": "138/69",
+      "provincia": "Guayas",
+      "canton": "Guayaquil",
+      "lat": -2.7167,
+      "lng": -80.25,
+      "id_activo": "se_posorja",
+      "fuente_geografica": "Circular CENACE Tabla 37"
+    }
+  ],
+  "obras_prioritarias": [
+    {
+      "nombre": "S/E Orquídeas 230/69 kV",
+      "categoria": "Subestacion",
+      "estado": "Urgente",
+      "provincia": "Guayas",
+      "lat": -2.095,
+      "lng": -79.902
+    },
+    {
+      "nombre": "S/E Nueva Salitral 230/69 kV",
+      "categoria": "Subestacion",
+      "estado": "Urgente",
+      "provincia": "Guayas",
+      "lat": -2.235,
+      "lng": -79.98
+    }
+  ],
+  "lineas_avanzadas": [
+    {
+      "nombre": "Shushufindi - Loreto - Orellana",
+      "nivel_kv": 138,
+      "trayectoria": "Zona Nororiental",
+      "id_activo": "lt_shushufindi_orellana"
+    }
+  ]
+}

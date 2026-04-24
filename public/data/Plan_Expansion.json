@@ -1,0 +1,62 @@
+{
+  "observatorio_electrico": {
+    "capa_prospectiva": {
+      "periodo_planificacion": "2023 - 2032",
+      "resumen_inversion_nacional_usd_millones": {
+        "total_pme_requerido": 17353.00,
+        "distribucion_por_actividad": {
+          "generacion": 9954.00,
+          "transmision": 1748.00,
+          "distribucion": 5651.00
+        }
+      },
+      "plan_expansion_generacion_peg": {
+        "potencia_total_a_incorporar_mw": 6304.00,
+        "proyectos_estrategicos_prioritarios": [
+          {
+            "nombre": "Santiago",
+            "tipo": "Hidroeléctrico",
+            "capacidad_mw": 2400.00,
+            "provincia": "Morona Santiago",
+            "estado_pme": "Proyectado largo plazo"
+          },
+          {
+            "nombre": "Cardenillo",
+            "tipo": "Hidroeléctrico",
+            "capacidad_mw": 595.60,
+            "provincia": "Morona Santiago",
+            "estado_pme": "Proyectado largo plazo"
+          },
+          {
+            "nombre": "Alluriquín",
+            "tipo": "Hidroeléctrico",
+            "capacidad_mw": 204.40,
+            "estado": "En proceso de finalización / ingreso 2025-2026"
+          }
+        ],
+        "bloques_energias_renovables_no_convencionales_ernc": {
+          "total_mw": 1871.5,
+          "subtotales": {
+            "bloque_1_2026_2027": 511.5,
+            "bloque_2_2027_2028": 700.0,
+            "bloque_3_2028_2030": 660.0
+          }
+        }
+      },
+      "plan_expansion_transmision_pet": {
+        "inversion_total_usd_millones": 1748.19,
+        "proyectos_por_plazo": {
+          "corto_plazo_ejecucion": 20.07,
+          "mediano_plazo_en_marcha": 809.28,
+          "largo_plazo_gestion": 794.55
+        }
+      },
+      "metas_sectoriales_al_2032": {
+        "cobertura_servicio_nacional_objetivo": "97.64%",
+        "reduccion_perdidas_distribucion_meta": "9.00%",
+        "incorporacion_generacion_firme_termica_mw": 700.00,
+        "movilidad_electrica_proyeccion_unidades": 174138
+      }
+    }
+  }
+}

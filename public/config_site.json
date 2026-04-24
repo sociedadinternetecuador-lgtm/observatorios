@@ -1,0 +1,16 @@
+{
+  "title": "Observatorio Eléctrico Nacional",
+  "objective": "Proporcionar transparencia y análisis holístico del Sistema Nacional Interconectado (S.N.I.), facilitando la toma de decisiones y el diseño de políticas de Estado mediante data validada.",
+  "methodology": "Aplicación de análisis estadístico multianual y modelación de suficiencia de generación. Se integran criterios de reserva operativa del 10% y escenarios hidrológicos críticos al 70% para determinar la vulnerabilidad estructural del país.",
+  "cenaceUrl": "https://www.cenace.gob.ec",
+  "opinion": {
+    "title": "Columna de Opinión Técnica",
+    "path": "/opinion.md"
+  },
+  "links": [
+    { "label": "ARCONEL", "url": "https://www.arconel.gob.ec" },
+    { "label": "Ministerio de Energía y Minas", "url": "https://www.recursosyenergia.gob.ec" },
+    { "label": "CELEC EP", "url": "https://www.celec.gob.ec" },
+    { "label": "CNEL EP", "url": "https://www.cnel.gob.ec" }
+  ]
+}

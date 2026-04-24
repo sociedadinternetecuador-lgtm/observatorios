@@ -1,0 +1,47 @@
+{
+  "observatorio_electrico": {
+    "metadata_hidrologica": {
+      "fuente_primaria": "PME Tabla No. 10-31 y Reporte Operativo CENACE 2026",
+      "descripcion": "Detalle histórico y estacional de aportes hídricos desglosados por vertiente",
+      "_comentario": "Esta capa permite correlacionar la producción hidráulica con la estacionalidad climática de Ecuador"
+    },
+    "clasificacion_cuencas": {
+      "vertiente_oriental_amazonica": {
+        "descripcion": "Principal fuente de generación del país (S.N.I.). Incluye las cuencas de los ríos Coca y Paute",
+        "centrales_asociadas": ["Coca Codo Sinclair", "Mazar", "Molino (Paute)", "Sopladora", "Delsitanisagua", "Agoyán", "San Francisco"],
+        "estacionalidad_estiaje": "Octubre a Marzo (Periodo crítico de bajas lluvias)",
+        "comportamiento_historico_reciente": {
+          "periodo_ene_nov_2025": "Superior al promedio histórico",
+          "caso_critico_dic_2025": {
+            "complejo": "Paute - Mazar",
+            "caudal_real_m3_s": 50.3,
+            "porcentaje_respecto_media_historica": 70.0,
+            "_comentario_tecnico": "Diciembre de 2025 marcó el inicio de una variabilidad climática extrema"
+          }
+        }
+      },
+      "vertiente_occidental_pacifico": {
+        "descripcion": "Aportes hídricos hacia la cuenca del río Guayas y vertiente del Pacífico",
+        "centrales_asociadas": ["Marcel Laniado (Daule Peripa)", "Baba", "Alluriquín", "Sarapullo", "Minas San Francisco"],
+        "estacionalidad_estiaje": "Junio a Noviembre",
+        "_comentario": "Su ciclo es complementario a la vertiente oriental, ayudando a equilibrar el sistema en ciertos meses"
+      }
+    },
+    "modelacion_y_proyeccion_caudales": {
+      "metodologia": "Modelación estocástica de caudales con resolución mensual",
+      "escenarios_riesgo_2026_2027": {
+        "probabilidad_deficit_hidrologico_critico": "25%",
+        "impacto_infraestructura": {
+          "coca_codo_sinclair": "Alta sensibilidad a sedimentos en época lluviosa (33 salidas en 2025)",
+          "mazar_paute": "Dependencia del descenso controlado del embalse ante caudales menores al 70%"
+        }
+      }
+    },
+    "indicadores_economicos_por_sequia": {
+      "unidad": "USD Millones",
+      "impacto_estimado_percentil_50": 41.31,
+      "impacto_sequia_extrema_percentil_98": 823.69,
+      "_nota": "Calculado en base al Costo de Energía No Suministrada (CENS) de 153.3 USD c/kWh"
+    }
+  }
+}
